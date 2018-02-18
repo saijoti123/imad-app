@@ -19,10 +19,7 @@ app.get('/ui/madi.png', function (req, res) {
   
 });
 
-app.get('function(req,res)'){
-    res.sendFile(path.join(_dirname,'ui','sai.html'));
-   
-   });
+
 
 var port = 80;
 app.listen(port, function () {
