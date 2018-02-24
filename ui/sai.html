@@ -5,5 +5,9 @@
     </head>
    <h1> welcome to the web page</h1>
 <p> THIS IS CREATED FOR disaster mangament to alert people</p>
-
+<scrpit>
+    app.get('/', function (req, res) {
+  res.sendFile(path.join(_dirname,'ui','index.html'));
+});
+</scrpit>
 </html>
